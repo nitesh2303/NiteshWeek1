@@ -98,9 +98,12 @@ class Test{
         Scanner input=new Scanner(System.in);
         System.out.println("Enter the year and month");
         year=input.nextInt();
-        month=input.nextInt();
-        //System.out.println("year is "+isLeap(year));
-        //System.out.println("day "+day(month,year));
+        month=input.nextInt();echo "# NiteshWeek1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nitesh2303/NiteshWeek1.git
+git push -u origin master
         cl.displayCalender(month, year);
             
     }
