@@ -1,6 +1,6 @@
 /******************************************************************************
  *  Compilation:  javac -d bin com/bridgelabz/util/Calendar.java
- *  Execution:    java -cp bin com.bridgelabz.util.Calendar
+ *  Execution:    java -cp bin com.bridgelabz.util.Test
  *  
  *  Purpose:To display Calender to find calendar days.
  *
@@ -25,7 +25,12 @@ public class Calendar {
 *	@return calDay
 */	
     public static int day(int month,int year)
-    {
+    {echo "# NiteshWeek1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nitesh2303/NiteshWeek1.git
+git push -u origin master
         int day=1;
         int y0=year-(14-month)/12;
         int x=y0+y0/4-y0/100+y0/400;
